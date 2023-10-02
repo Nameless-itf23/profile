@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import './Profile.css'
 
 function Profile() {
     const { t } = useTranslation();
