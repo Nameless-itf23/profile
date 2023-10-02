@@ -1,0 +1,21 @@
+.HeroArea {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+    background-color: rgb(240, 240, 240);
+}
+
+.icon {
+    border-radius:50%;
+    width: 20em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: 1000;
+}

@@ -1,0 +1,10 @@
+section {
+    margin: 4em 6em 4em 6em;
+    background-color: rgb(240, 240, 240);
+    border-radius:1em;
+    padding: 2em 3em 2em 3em;
+}
+
+h1 {
+    font-size: 2em;
+}
