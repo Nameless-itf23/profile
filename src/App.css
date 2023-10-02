@@ -1,10 +1,10 @@
 section {
-    margin-top: calc(4 * (1em - 0.006 * (1920px - 100vw)));
-    margin-right: calc(6 * (1em - 0.008 * (1920px - 100vw)));
-    margin-bottom: calc(4 * (1em - 0.006 * (1920px - 100vw)));
-    margin-left: calc(6 * (1em - 0.008 * (1920px - 100vw)));
+    margin-top: calc(4 * (16px - 0.006 * (1920px - 100vw)));
+    margin-right: calc(6 * (16px - 0.008 * (1920px - 100vw)));
+    margin-bottom: calc(4 * (16px - 0.006 * (1920px - 100vw)));
+    margin-left: calc(6 * (16px - 0.008 * (1920px - 100vw)));
     background-color: rgb(240, 240, 240);
-    border-radius:1em;
+    border-radius:16px;
     padding: 2em 3em 2em 3em;
 }
 

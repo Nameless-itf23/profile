@@ -6,16 +6,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 3em;
+    gap: 48px;
     background-color: rgb(240, 240, 240);
 }
 
 .icon {
     border-radius:50%;
-    width: calc(20 * (1em - 0.004 * (1920px - 100vw)));
+    width: calc(20 * (16px - 0.004 * (1920px - 100vw)));
 }
 
 .name {
-    font-size: calc(3 * (1em - 0.004 * (1920px - 100vw)));
+    font-size: calc(3 * (16px - 0.004 * (1920px - 100vw)));
     font-weight: 1000;
 }

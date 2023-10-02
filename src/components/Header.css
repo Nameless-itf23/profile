@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    padding: 1em;
+    padding: 16px;
     display: flex;
     position: fixed;
     z-index: 1;
@@ -9,5 +9,4 @@ header {
 nav {
     margin: 0 0 0 auto;
     display: flex;
-    font-size: 1em;
 }
