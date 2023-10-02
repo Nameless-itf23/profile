@@ -5,5 +5,8 @@
         "age": {"q": "Age", "a": "19"},
         "birth": {"q": "Birth", "a": "May 4, 2004"},
         "school": {"q": "School", "a": "University of Tsukuba, College of Information Science"}
+    },
+    "skills": {
+        "title": "Skills"
     }
 }
