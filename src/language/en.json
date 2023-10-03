@@ -9,7 +9,9 @@
     "skills": {
         "title": "Skills",
         "skill": {
-            "Python": "a"
+            "Python": "a",
+            "Unity": "i",
+            "HTML_CSS": "u"
         }
     }
 }
