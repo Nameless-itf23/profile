@@ -7,6 +7,9 @@
         "school": {"q": "School", "a": "University of Tsukuba, College of Information Science"}
     },
     "skills": {
-        "title": "Skills"
+        "title": "Skills",
+        "skill": {
+            "Python": "a"
+        }
     }
 }

@@ -7,6 +7,9 @@
         "school": {"q": "School", "a": "筑波大学 情報学群 情報科学類"}
     },
     "skills": {
-        "title": "できること"
+        "title": "できること",
+        "skill": {
+            "Python": "あ"
+        }
     }
 }

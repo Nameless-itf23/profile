@@ -1,7 +1,8 @@
 import './Skill.css'
 
 type Props = {
-img: string,
+    key: number,
+    img: string,
     title: string,
     date: string,
     description: string

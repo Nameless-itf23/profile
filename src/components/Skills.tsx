@@ -3,26 +3,28 @@ import './Skills.css'
 import Skill from "./Skill";
 import Python from '../assets/Python.png'
 
-type type_skill = {
-    img: string,
-    title: string,
-    date: string,
-    description: string
-};
-
-const skills: type_skill[] = [
-    {img: Python, title: 'Python', date: '2020 / 05 ~', description: 'これは説明です。これは説明です。これは説明です。'},
-    {img: Python, title: 'Python', date: '2020 / 05 ~', description: 'これは説明です。これは説明です。これは説明です。'},
-    {img: Python, title: 'Python', date: '2020 / 05 ~', description: 'これは説明です。これは説明です。これは説明です。'}
-];
-
 function Skills() {
     const { t } = useTranslation();
+
+    type type_skill = {
+        key: number,
+        img: string,
+        title: string,
+        date: string,
+        description: string
+    };
+
+    const skills: type_skill[] = [
+        {key: 0, img: Python, title: 'Python', date: '2020 / 05 ~', description: 'skills.skill.Python'},
+        {key: 1, img: Python, title: 'Python', date: '2020 / 05 ~', description: 'skills.skill.Python'},
+        {key: 2, img: Python, title: 'Python', date: '2020 / 05 ~', description: 'skills.skill.Python'}
+    ];
+    
     return (
         <section>
             <h1>{t('skills.title')}</h1>
             <div className='Skills'>
-                {skills.map((skill) => <Skill img={skill.img} title={skill.title} date={skill.date} description={skill.description}/>)}
+                {skills.map((skill) => <Skill key={skill.key} img={skill.img} title={skill.title} date={skill.date} description={t(skill.description)}/>)}
             </div>
         </section>
     )
