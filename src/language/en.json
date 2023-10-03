@@ -11,7 +11,9 @@
         "skill": {
             "Python": "a",
             "Unity": "i",
-            "HTML_CSS": "u"
+            "HTML_CSS": "u",
+            "JavaScript": "e",
+            "React": "o"
         }
     }
 }
