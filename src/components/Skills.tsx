@@ -6,6 +6,7 @@ import Unity from '../assets/Unity.png'
 import HTML_CSS from '../assets/HTML_CSS.png'
 import JavaScript from '../assets/JavaScript.png'
 import _React from '../assets/React.png'
+import AtCoder from '../assets/AtCoder.png'
 
 function Skills() {
     const { t } = useTranslation();
@@ -23,7 +24,8 @@ function Skills() {
         {key: 1, img: Unity, title: 'Unity C#', date: '2023 / 05 ~', description: 'skills.skill.Unity'},
         {key: 2, img: HTML_CSS, title: 'HTML / CSS', date: '2023 / 07 ~', description: 'skills.skill.HTML_CSS'},
         {key: 3, img: JavaScript, title: 'JavaScript', date: '2023 / 06 ~', description: 'skills.skill.JavaScript'},
-        {key: 4, img: _React, title: 'React', date: '2023 / 07 ~', description: 'skills.skill.React'}
+        {key: 4, img: _React, title: 'React', date: '2023 / 07 ~', description: 'skills.skill.React'},
+        {key: 5, img: AtCoder, title: 'AtCoder', date: '2023 / 06 ~', description: 'skills.skill.AtCoder'}
     ];
     
     return (
