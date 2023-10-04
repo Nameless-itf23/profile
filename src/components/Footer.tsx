@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <div className='follow-me'>
-                <h1 className='follow-content'>Follow me !</h1>
+                <h1 className='follow-content'><div className='gradation'>Follow me !</div></h1>
                 <SNS />
             </div>
         </footer>
