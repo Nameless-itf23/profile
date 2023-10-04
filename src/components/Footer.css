@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 2em;
+    color: white;
+    background-color: rgb(45, 45, 56);
+}
+
+.follow-content {
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+	font-weight: 700;
+	color: transparent;
+	background: repeating-linear-gradient(90deg, #ff6efa 0% 10%, #8770da 30% 33%, #6582f5 57% 60%, #6fd9de 90% 100%);
+    background-clip: text;
+	-webkit-background-clip: text;
+}

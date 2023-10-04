@@ -9,12 +9,13 @@
     "skills": {
         "title": "できること",
         "skill": {
-            "Python": "あ",
-            "Unity": "い",
-            "HTML_CSS": "う",
-            "JavaScript": "え",
-            "React": "お",
-            "AtCoder": "か"
+            "Python": "機械学習を2年ほどやっています。過去には1枚の顔画像から使える入退室自動記録システムやTransformerというアーキテクチャを使ったLLMなどを自主制作しました。",
+            "Unity": "趣味の範囲で利用しています。",
+            "Blender": "個人的に3Dモデルが必要になったときなどに利用しています。私の現在のアイコンもBlenderで制作しました。",
+            "HTML_CSS": "webページの制作に利用しています。",
+            "JavaScript": "Chrome拡張機能やwebページの制作などに利用しています。",
+            "React": "基本的にはTypeScriptで書いています。このサイトもReact+TypeScriptで制作しました。これから力を入れようと思っている分野です。",
+            "AtCoder": "競技プログラミングです。コーディングにはPythonを使用しています。"
         }
     }
 }

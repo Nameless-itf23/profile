@@ -1,0 +1,9 @@
+.SNS {
+    display: flex;
+    align-items: center;
+}
+
+.sns-icon {
+    border-radius:50%;
+    width: calc(8 * (16px - 0.004 * (1920px - 100vw)));
+}

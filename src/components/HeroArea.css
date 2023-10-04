@@ -17,5 +17,5 @@
 
 .name {
     font-size: calc(3 * (16px - 0.004 * (1920px - 100vw)));
-    font-weight: 1000;
+    font-weight: 500;
 }
