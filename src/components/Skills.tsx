@@ -13,7 +13,6 @@ function Skills() {
     const { t } = useTranslation();
 
     type type_skill = {
-        key: number,
         img: string,
         title: string,
         date: string,
@@ -21,20 +20,20 @@ function Skills() {
     };
 
     const skills: type_skill[] = [
-        {key: 0, img: Python, title: 'Python', date: '2020 / 05 ~', description: 'skills.skill.Python'},
-        {key: 1, img: Unity, title: 'Unity C#', date: '2023 / 05 ~', description: 'skills.skill.Unity'},
-        {key: 2, img: Blender, title: 'Blender', date: '2021 / 07 ~', description: 'skills.skill.Blender'},
-        {key: 3, img: HTML_CSS, title: 'HTML / CSS', date: '2023 / 07 ~', description: 'skills.skill.HTML_CSS'},
-        {key: 4, img: JavaScript, title: 'JavaScript', date: '2023 / 06 ~', description: 'skills.skill.JavaScript'},
-        {key: 5, img: _React, title: 'React', date: '2023 / 07 ~', description: 'skills.skill.React'},
-        {key: 6, img: AtCoder, title: 'AtCoder', date: '2023 / 06 ~', description: 'skills.skill.AtCoder'}
+        {img: Python, title: 'Python', date: '2020 w 05 ~', description: 'skills.skill.Python'},
+        {img: Unity, title: 'Unity C#', date: '2023 / 05 ~', description: 'skills.skill.Unity'},
+        {img: Blender, title: 'Blender', date: '2021 / 07 ~', description: 'skills.skill.Blender'},
+        {img: HTML_CSS, title: 'HTML / CSS', date: '2023 / 07 ~', description: 'skills.skill.HTML_CSS'},
+        {img: JavaScript, title: 'JavaScript', date: '2023 / 06 ~', description: 'skills.skill.JavaScript'},
+        {img: _React, title: 'React', date: '2023 / 07 ~', description: 'skills.skill.React'},
+        {img: AtCoder, title: 'AtCoder', date: '2023 / 06 ~', description: 'skills.skill.AtCoder'}
     ];
     
     return (
         <section>
             <h1>{t('skills.title')}</h1>
             <div className='Skills'>
-                {skills.map((skill) => <Skill key={skill.key} img={skill.img} title={skill.title} date={skill.date} description={t(skill.description)}/>)}
+                {skills.map((skill, index) => <Skill key={index} img={skill.img} title={skill.title} date={skill.date} description={t(skill.description)}/>)}
             </div>
         </section>
     )
