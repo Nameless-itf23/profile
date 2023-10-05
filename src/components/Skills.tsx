@@ -20,7 +20,7 @@ function Skills() {
     };
 
     const skills: type_skill[] = [
-        {img: Python, title: 'Python', date: '2020 w 05 ~', description: 'skills.skill.Python'},
+        {img: Python, title: 'Python', date: '2020 / 05 ~', description: 'skills.skill.Python'},
         {img: Unity, title: 'Unity C#', date: '2023 / 05 ~', description: 'skills.skill.Unity'},
         {img: Blender, title: 'Blender', date: '2021 / 07 ~', description: 'skills.skill.Blender'},
         {img: HTML_CSS, title: 'HTML / CSS', date: '2023 / 07 ~', description: 'skills.skill.HTML_CSS'},
