@@ -1,4 +1,3 @@
 # プロフィールサイト
-TypeScript+Vite+React  
-作りかけのwebサイト  
+TypeScript+Vite+React による 作りかけのwebサイト  
 https://nameless-itf23.github.io/profile/
